@@ -1,0 +1,24 @@
+{
+  "name": "firefox-reader-example-api",
+  "version": "1.0.0",
+  "description": "Example API server for Firefox Reader extension",
+  "main": "example-api.js",
+  "scripts": {
+    "start": "node example-api.js",
+    "dev": "node example-api.js"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "api",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  }
+}
+ 

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#FF9500" opacity="0.9"/>
+
+  <!-- Document/Page -->
+  <rect x="32" y="24" width="64" height="80" rx="4" fill="white"/>
+
+  <!-- Document lines -->
+  <line x1="40" y1="36" x2="88" y2="36" stroke="#FF9500" stroke-width="3" stroke-linecap="round"/>
+  <line x1="40" y1="50" x2="88" y2="50" stroke="#CCCCCC" stroke-width="2" stroke-linecap="round"/>
+  <line x1="40" y1="60" x2="88" y2="60" stroke="#CCCCCC" stroke-width="2" stroke-linecap="round"/>
+  <line x1="40" y1="70" x2="88" y2="70" stroke="#CCCCCC" stroke-width="2" stroke-linecap="round"/>
+  <line x1="40" y1="80" x2="72" y2="80" stroke="#CCCCCC" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Download arrow -->
+  <g transform="translate(64, 100)">
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#FF9500" stroke-width="2" stroke-linecap="round"/>
+    <polyline points="-6,4 0,10 6,4" stroke="#FF9500" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
