@@ -138,7 +138,7 @@ function handleDownload(data) {
 function loadSubjects() {
     return new Promise((resolve, reject) => {
         fetch(SUBJECTS_ENDPOINT, {
-            method: 'POST',
+            method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
             }
